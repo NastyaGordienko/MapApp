@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         EditText textDolgota = (EditText) findViewById(R.id.textDolgota);
         Button btnMap = (Button) findViewById(R.id.btnMap);
 
-        View.OnClickListener oclbtnMap = new View.OnClickListener() {
+       /* View.OnClickListener oclbtnMap = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent1 = new Intent();
@@ -29,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
         };
-        btnMap.setOnClickListener(oclbtnMap);
 
+
+        btnMap.setOnClickListener(oclbtnMap);
+*/
 
     }
 }
